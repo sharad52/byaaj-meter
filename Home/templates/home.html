@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+    {% block title %}
+        meterByaaj
+    {% endblock %}
+    
+
+
+    {% block content %}
+    <div class="homeContent">
+        <a href="{% url 'app1:interestCalculate' %}"><input id="homeButtons" type="submit" value="ब्याज हिसाब गर्नुहोस्" name="interestCalculate"></a>
+        <a href="{% url 'app1:keepRecord' %}"><input id="homeButtons" type="submit" value="रेकर्ड राख्नुहोस्" name="Record"></a>
+        <a href="{% url 'app1:transaction' %}"><input id="homeButtons" type="submit" value="जम्मा कारोबार हेर्नुहोस्" name="transaction"></a>
+        <a href="{% url 'app1:interestRate' %}"><input id="homeButtons" type="submit" value="ब्याजदर मिलाऊनुहोस्" name="interestRate"></a>
+    </div>
+    {% endblock %}

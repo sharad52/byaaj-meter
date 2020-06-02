@@ -1,0 +1,20 @@
+.homeContent{
+    padding: 50px;
+    display: inline-block;
+    height: auto;
+    margin: auto;
+
+
+}
+#homeButtons{
+    background-color: rgb(6, 98, 110);
+    padding: 20px;
+    color: rgba(241, 236, 236, 0.342);
+    margin: 0px 20px;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
